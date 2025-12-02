@@ -567,6 +567,6 @@ mono3d_det/
 
 #### C. Hardware Specifications
 
-- GPU: NVIDIA RTX 3090 (24GB VRAM, CUDA 11.8)
+- GPU: NVIDIA RTX 5090 (60GB VRAM, CUDA 11.8) A100
 - RAM: 32GB DDR4
 - Storage: 1TB NVMe SSD (50GB for dataset)
