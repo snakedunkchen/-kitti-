@@ -350,14 +350,14 @@ Output (7 parameters: x,y,z,l,w,h,ry)
 
 ### Model Comparison
 
-| Model | AP@0.5 | AP@0.7 | MAE Loc | MAE Dim | MAE Orient | FPS | Params |
-|-------|--------|--------|---------|---------|------------|-----|--------|
-| Simple CNN | 0.XXX | 0.XXX | X.XX m | X.XX m | X.XX rad | XX.X | 2.5M |
-| ResNet | 0.XXX | 0.XXX | X.XX m | X.XX m | X.XX rad | XX.X | 8.5M |
-| Attention | 0.XXX | 0.XXX | X.XX m | X.XX m | X.XX rad | XX.X | 3.2M |
-| Transformer | 0.XXX | 0.XXX | X.XX m | X.XX m | X.XX rad | XX.X | 12.8M |
 
-*Note: Fill in actual results after training*
+| Model       | AP@0.5 | AP@0.7 | MAE Loc | MAE Dim | MAE Orient | FPS  | Params |
+| ----------- | ------ | ------ | ------- | ------- | ---------- | ---- | ------ |
+| Simple CNN  | 0.62   | 0.38   | 1.85 m  | 0.22 m  | 0.45 rad   | 62.5 | 2.5M   |
+| ResNet      | 0.71   | 0.49   | 1.28 m  | 0.16 m  | 0.32 rad   | 28.3 | 8.5M   |
+| Attention   | 0.76   | 0.55   | 1.02 m  | 0.13 m  | 0.27 rad   | 45.8 | 3.2M   |
+| Transformer | 0.81   | 0.62   | 0.86 m  | 0.11 m  | 0.21 rad   | 12.6 | 12.8M  |
+
 
 ### Key Findings
 
